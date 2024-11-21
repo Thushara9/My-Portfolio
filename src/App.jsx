@@ -15,6 +15,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import TechnicalProficiency from "./components/TechnicalProficiency";
 import Timeline from "./components/timelineData";
+import Work from "./components/Work";
 
 export default function App() {
   return (
@@ -28,9 +29,11 @@ export default function App() {
     {/* <Logo/> */}
     <TechnicalProficiency/>
 
-    <div className="container mx-auto px-4 w-[1250px]">
+    {/* <div className="container mx-auto px-4 w-[1250px]">
     <Projects/>
-</div>
+</div> */}
+
+<Work/>
     
     <Contact/>
 
